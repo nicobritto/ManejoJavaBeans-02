@@ -26,7 +26,7 @@
         </c:if>
         <br/>
         <br/>
-        <!--  Codigo condicionado  usando switch   c:choose simula switch -->
+        <!--  Codigo condicionado  usando switch   choose simula switch -->
         <c:if test="${param.opcion != null}">
             <c:choose>
                 <c:when test="${param.opcion == 1}">
